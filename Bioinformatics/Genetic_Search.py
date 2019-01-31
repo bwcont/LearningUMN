@@ -21,5 +21,7 @@ def random_codon(RNAflag = False):
     return random_base(RNAflag) + random_base(RNAflag) +random_base(RNAflag)
 
 #test:
+print("\n")
 print ("random codon test:")
 print(random_codon())
+print("\n")
